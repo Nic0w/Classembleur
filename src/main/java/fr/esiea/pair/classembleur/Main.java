@@ -27,6 +27,7 @@ public class Main implements Runnable {
 	public void run() {
 		
 		System.out.println("Hello world !");
+		System.out.println(" Je t'aime Nicpl0w");
 		
 	}
 
