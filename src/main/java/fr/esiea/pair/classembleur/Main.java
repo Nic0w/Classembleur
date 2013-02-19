@@ -7,12 +7,12 @@ package fr.esiea.pair.classembleur;
  * @author nic0w
  *
  */
-public class Main {
+public class Main implements Runnable {
 
 	/**
 	 * 
 	 */
-	public Main() {
+	public Main(String args[]) {
 		// TODO Auto-generated constructor stub
 	}
 
@@ -20,8 +20,13 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		new Main(args).run();	
+	}
 
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
